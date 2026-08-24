@@ -30,3 +30,8 @@ let rootOfReact = ReactDOM.createRoot(realDomElement);
 
 // rootOfReact.render(rh2);
 rootOfReact.render(rh3);
+
+// --------------ES MODULES----------
+import {a,sum} from "./main.js";
+console.log(a);
+sum(20,30);
